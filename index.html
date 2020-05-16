@@ -8,6 +8,9 @@
     <!-- Google Font Styles -->
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
 
+    <!-- Font Awesome Styles -->
+    <script src="https://kit.fontawesome.com/ef2a89359e.js" crossorigin="anonymous"></script>
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     
@@ -22,10 +25,10 @@
     <header>
       <nav class="navbar navbar-expand-lg shadow-sm">
         <div class="container d-flex justify-content-between">
-          <a id=logo href="#" class="navbar-brand d-flex align-items-center">
-            <img src="./assets/IMG_1031.PNG" width="45" height="45" alt="badge">
+          <div class="navbar-brand d-flex align-items-center">
+            <img id=logo src="./assets/IMG_1031.PNG" width="45" height="45" alt="badge">
             <strong>Legendary Anatomy</strong>
-          </a>
+          </div>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -41,7 +44,7 @@
                           <a class="nav-link" href="./portfolio.html">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#">Contact</a>
+                          <a class="nav-link" href="./contact.html">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -60,11 +63,29 @@
 
     <footer>
       <div class="container">
-        <p class="float-right">
-          <a href="#">Back to top</a>
-        </p>
+        <div class="row">
+          <div class="col"></div>         
+          <div class="col-4" >
+              <ul class="social-icons">
+                <a href="https://www.instagram.com/legendaryanatomy/" target="link">
+                  <li><i class="fab fa-instagram fa-lg"></i></li>
+                </a>
+                <a href="https://github.com/Mansa-MD" target="link">
+                  <li><i class="fab fa-github fa-lg"></i></li>
+                </a>
+                <a href="https://www.facebook.com/mory.doumbia.5" target="link">
+                  <li><i class="fab fa-facebook fa-lg"></i></li>
+                </a>
+              </ul>   
+          </div>
+          <div class="col"></div>
+        </div>
+      </div>
 
-        <p>&copy; Mory O. Doumbia!</p>
+      <div class="row">
+        <div class="col">
+          <p> Copyright &copy; 2020 Legendary Anatomy. All rights reserved.</p>
+        </div>        
       </div>
     </footer>
     
