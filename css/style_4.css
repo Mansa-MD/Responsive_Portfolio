@@ -1,4 +1,3 @@
-
 header .navbar-brand {
   font-family: 'Anton', sans-serif;
 }
@@ -11,6 +10,11 @@ header .navbar-toggler {
   background-color: black;
 }
 
+.fas {
+  color: white;
+  margin-top: 5.5px;
+}
+
 #banner {
   width: 100%;
   height: 50%;
@@ -20,6 +24,11 @@ header .navbar-toggler {
 #navbarHeader {
   font-family: 'Anton', sans-serif;
   font-size: 18px;
+}
+
+
+.form-group label {
+  font-family: 'Anton', sans-serif;
 }
 
 
@@ -37,7 +46,7 @@ header .navbar-toggler {
 .social-icons li:hover {
   color: darkred;
   border: 1px solid darkred;
-  transition: .2s;1
+  transition: .2s;
 }
 
 

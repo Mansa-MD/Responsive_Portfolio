@@ -14,7 +14,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     
-    <!-- Bootstrap CSS -->
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="./css/style_4.css">
 
     <title>Contact</title>
@@ -30,7 +30,7 @@
             <strong>Legendary Anatomy</strong>
           </div>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"><i class="fas fa-bars fa-lg"></i></span>
           </button>
               <div class="collapse navbar-collapse" id="navbarHeader">
                     <ul class="navbar-nav ml-auto">
@@ -53,21 +53,42 @@
     </header>
 
     <main>
+      
       <div class="container">
         <div class="row">
           <img id="banner" src="./assets/IMG_1034.PNG" alt="back-banner" srcset="">
         </div>
 
+        <div class="row">
+          <div class="col"></div>
+          <div class="col-6">
+            <form>
+              <div class="form-group">
+                <label>Name</label>
+                <input type="text" class="form-control" placeholder="Enter name">   
+              </div>
+              <div class="form-group">
+                <label>Email address</label>
+                <input type="email" class="form-control" placeholder="Enter email">   
+              </div>
+              <div class="form-group">
+                <label>Message</label>
+                <textarea class="form-control" rows="5" cols="5"></textarea>  
+              </div> 
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+          <div class="col"></div>     
+        </div>
       </div>
     </main>
 
     <footer>
 
       <div class="container">
-
         <div class="row">
           <div class="col"></div>         
-          <div class="col-4" >
+          <div class="col-md-6 col-lg-6 col-xl-4" >
               <ul class="social-icons">
                 <a href="https://www.instagram.com/legendaryanatomy/" target="link">
                   <li><i class="fab fa-instagram fa-lg"></i></li>
@@ -85,10 +106,9 @@
       </div>
 
       <div class="row">
-        <div class="col">
+        <div class="col-md-6 col-lg-6 col-xl-4">
           <p> Copyright &copy; 2020 Legendary Anatomy. All rights reserved.</p>
-        </div>
-        
+        </div>      
       </div>
     </footer>
     
