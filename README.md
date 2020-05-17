@@ -10,5 +10,5 @@
 
 *About section - Desktop Responsive Image: ![](assets/About_DesktopRP.jpg)
 
-*Portfolio section - Mobile Responsive Image: ![](assets/Portfolio_MobileRP.jpg)
+*Portfolio section - Mobile Responsive Image: ![](assets/Portfolio_Mobile%20RP.jpg)
 
