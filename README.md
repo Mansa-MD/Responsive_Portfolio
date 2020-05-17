@@ -4,7 +4,7 @@
 
 *Responsive website is fully viewable and compatible on desktop and mobile screen.
 
-*Link: https://mansa-md.github.io/Responsive_Portfolio/
+*Website Link: https://mansa-md.github.io/Responsive_Portfolio/
 
-*About Tab - Desktop Responsive:
+*About Tab - Desktop Responsive: ![](assets/About_DesktopRP.jpg)
 
