@@ -8,7 +8,7 @@
 
 *Website Link: https://mansa-md.github.io/Responsive_Portfolio/
 
-*About section - Desktop Responsive Image: ![](assets/About_DesktopRP.jpg)
+*About section - Desktop Responsive Image: ![](assets/About_RP.jpg)
 
 *Portfolio section - Mobile Responsive Image:
 
