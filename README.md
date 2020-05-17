@@ -2,7 +2,7 @@
 
 *Built a responsive website using bootstraps grid system and components. 
 
-*Responisive webiste has four tab on the navbar: Home, About, Portfolio, and Contact.
+*Responisive website has four tab on the navbar: Home, About, Portfolio, and Contact.
 
 *Responsive website is fully viewable and compatible on desktop and mobile screen.
 
