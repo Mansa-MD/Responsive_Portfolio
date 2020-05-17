@@ -1,3 +1,8 @@
+#bg-logo {
+  width: 100%;
+  height: 50%;  
+}
+
 
 header .navbar-brand {
   font-family: 'Anton', sans-serif;
@@ -27,22 +32,6 @@ header .navbar-toggler {
   font-size: 18px;
 }
 
-h3 {
-  font-family: 'Anton', sans-serif;
-
-}
-
-.bio {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  
-}
-
-#rounded {
-  width: 250px;
-  height: 250px;
-  border-radius: 50%;
-}
-  
 
 .social-icons li{
   list-style: none;
@@ -58,11 +47,11 @@ h3 {
 .social-icons li:hover {
   color: darkred;
   border: 1px solid darkred;
-  transition: .2s;1
+  transition: .2s;
 }
 
 
-  
+
 footer {
   padding-top: 3rem;
   padding-bottom: 3rem;

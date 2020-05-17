@@ -1,38 +1,70 @@
+/**Home Background Logo**/
 #bg-logo {
   width: 100%;
   height: 50%;  
 }
 
-
+/**Header Navbar Tabs Typography**/
 header .navbar-brand {
   font-family: 'Anton', sans-serif;
 }
 
+/**Header Navbar Tabs Color**/
 header a {
   color: black;
 }
 
+/**Header .Navbar-toggler color*/
 header .navbar-toggler {
   background-color: black;
 }
 
+/**.navbar-toggler 3x(-) color **/
 .fas {
   color: white;
   margin-top: 5.5px;
 }
 
+/**Logo Banner Size**/
 #banner {
   width: 100%;
   height: 50%;
-
 }
 
+/**Header "Legenary Anatomy" Typography/Color **/
 #navbarHeader {
   font-family: 'Anton', sans-serif;
   font-size: 18px;
 }
 
+/**Mory O. Doumbia Typography**/
+h3 {
+  font-family: 'Anton', sans-serif;
+}
 
+/**Bio Info Typography**/
+.bio {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+
+/**Bio-Pic Circle**/
+#rounded {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+/**Portfolio Cards Typography **/
+h6 {
+  font-family: 'Anton', sans-serif;
+}
+
+/**Contact Form Typography**/
+.form-group label {
+  font-family: 'Anton', sans-serif;
+}
+
+/**Social Media Icons Styling**/
 .social-icons li{
   list-style: none;
   margin: 10px 30px;
@@ -44,19 +76,20 @@ header .navbar-toggler {
   transition: .2s;
 }
 
+/**Social Media Icons Hover Color**/
 .social-icons li:hover {
   color: darkred;
   border: 1px solid darkred;
   transition: .2s;
 }
-
-
-
+ 
+/**Footer Spacing**/
 footer {
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
 
+/**Footer Copyright Text Styling**/
 footer p {
   text-align: center;
   margin-bottom: .25rem;
