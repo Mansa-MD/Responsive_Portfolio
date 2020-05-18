@@ -75,7 +75,7 @@ h6 {
   
 }
 
-/**Social Media Icons Hover Color**/
+/**Social Media Icons Border Hover Color**/
 .social-icons li:hover {
   border: 1px solid darkred;
   border-radius: 30%;
@@ -83,13 +83,16 @@ h6 {
   
 }
 
+/**Social Media Icons Color**/
 .social-icons a{
   color: black;
 }
 
+
+/**Social Media Icons Hover Color**/
 .social-icons a:hover {
   color: darkred;
-  transition: .3s;
+  transition: .1s;
 }
 
 
