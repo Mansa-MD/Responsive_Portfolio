@@ -63,26 +63,38 @@ h6 {
 .form-group label {
   font-family: 'Anton', sans-serif;
 }
-
+ 
 /**Social Media Icons Styling**/
-.social-icons li{
+.social-icons li {
   list-style: none;
   margin: 10px 30px;
   display: inline-block;
-  color: black;
   padding: 5px 5px;
-  border: 1px solid black;
+  border: 1px solid;
   border-radius: 30%;
-  transition: .2s;
+  
 }
 
 /**Social Media Icons Hover Color**/
 .social-icons li:hover {
-  color: darkred;
   border: 1px solid darkred;
-  transition: .2s;
+  border-radius: 30%;
+  transition: 1s;
+  
 }
- 
+
+.social-icons a{
+  color: black;
+}
+
+.social-icons a:hover {
+  color: darkred;
+  transition: .3s;
+}
+
+
+
+
 /**Footer Spacing**/
 footer {
   padding-top: 3rem;
